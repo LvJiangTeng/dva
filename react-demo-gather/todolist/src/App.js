@@ -14,6 +14,7 @@ class App extends Component {
   render() {
     // Injected by connect() call:
     const { dispatch, visibleTodos, visibilityFilter } = this.props;
+    console.log(this.props);
     return (
       <div>
         <AddTodo onAddClick={text => dispatch(addTodo(text))} />
