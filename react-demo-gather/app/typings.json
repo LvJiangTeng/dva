@@ -1,0 +1,5 @@
+{
+  "globalDependencies": {
+    "redux-saga": "registry:dt/redux-saga#0.9.1+20160703120921"
+  }
+}
