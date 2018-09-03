@@ -4,7 +4,8 @@ import { Link } from 'dva/router';
 import { Checkbox, Alert, Icon } from 'antd';
 import Login from 'components/Login';
 import styles from './Login.less';
-console.log(Login)
+
+console.log(Login);
 const { Tab, UserName, Password, Mobile, Captcha, Submit } = Login;
 
 @connect(({ login, loading }) => ({
