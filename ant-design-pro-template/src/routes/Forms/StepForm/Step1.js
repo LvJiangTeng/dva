@@ -71,7 +71,7 @@ class Step1 extends React.PureComponent {
               rules: [
                 { required: true, message: '请输入转账金额' },
                 {
-                  pattern: /^(\d+)((?:\.\d+)?)$/,
+                  pattern: /^(\d{1,13})((?:\.\d{1,2})?)$/,
                   message: '请输入合法金额数字',
                 },
               ],

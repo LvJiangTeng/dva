@@ -89,7 +89,7 @@ export function digitUppercase(n) {
   fraction.forEach((item, index) => {
     s += (digit[Math.floor(accMul(num, 10 * 10 ** index)) % 10] + item).replace(/零./, '');
   });
-  s = s || '整';
+  s = s || '份';
   num = Math.floor(num);
   for (let i = 0; i < unit[0].length && num > 0; i += 1) {
     let p = '';
